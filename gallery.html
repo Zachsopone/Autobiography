@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="galstyle.css" />
+    <title>Biography</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <ul>
+          <div class="cover">
+            <div onclick="playPause()">
+              <i class="fas fa-play" id="playIcon"></i>
+            </div>
+          </div>
+          <audio id="song">
+            <source
+              src="Future Bass _Fade Out_ Chill Type Free Music - Vlog No Copyright Music.mp3"
+              type="audio/mpeg"
+            />
+          </audio>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="resume.html">RESUME</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a id="contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h1>GALLERY</h1>
+    <div class="container">
+      <div class="gallery">
+        <img src="apdujan1.jpg" alt="apdujan1" />
+        <img src="apdujan3.jpg" alt="apdujan3" />
+        <img src="apdujan4.jpg" alt="apdujan4" />
+        <img src="apdujan5.jpg" alt="apdujan5" />
+        <img src="apdujan6.jpg" alt="apdujan6" />
+        <img src="apdujan7.jpg" alt="apdujan7" />
+        <img src="apdujan8.jpg" alt="apdujan8" />
+        <img src="apdujan9.jpg" alt="apdujan9" />
+        <img src="apdujan10.jpg" alt="apujan10" />
+      </div>
+    </div>
+    <footer>
+      <h3>AUTHORS:</h3>
+      <p>
+        Exequiel Apdujan<br /><a
+          class="link"
+          href="https://mail.google.com/mail/"
+          >apdujanexequiel@gmail.com</a
+        >
+      </p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/662a41ec0f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      let song = document.getElementById("song");
+      let playIcon = document.getElementById("playIcon");
+
+      function playPause() {
+        if (playIcon.classList.contains("fa-pause")) {
+          song.pause();
+          playIcon.classList.remove("fa-pause");
+          playIcon.classList.add("fa-play");
+        } else {
+          song.play();
+          playIcon.classList.add("fa-pause");
+          playIcon.classList.remove("fa-play");
+        }
+      }
+    </script>
+  </body>
+  <script>
+    document.querySelector("#contact").addEventListener("click", () => {
+      window.scrollTo(0, document.body.scrollHeight);
+    });
+  </script>
+</html>

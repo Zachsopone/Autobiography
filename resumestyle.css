@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-family: Georgia;
+  padding: 30px;
+  background-color: #b9936c;
+}
+body {
+  font-size: 14px;
+}
+.layer {
+  background-color: #b9936c;
+  overflow: auto;
+  padding-bottom: 30px;
+}
+.resume {
+  width: 800px;
+  display: flex;
+  margin: auto;
+  overflow: auto;
+  height: 1050px;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #b3a492;
+}
+.header ul {
+  width: auto;
+  float: right;
+}
+.header li {
+  display: inline-block;
+  padding: 25px 30px;
+}
+.header a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.lis:hover {
+  background-color: #9d8e79;
+  transition: 0.5s;
+}
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.group {
+  margin: 14px 0;
+}
+.semi {
+  margin: 16px 0;
+}
+.regular {
+  margin: 14px 0;
+}
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#Address,
+#Email,
+#Phone,
+#Facebook,
+#Youtube {
+  font-weight: 600;
+  color: white;
+  font-size: 15px;
+}
+.resume .resume_left {
+  width: 280px;
+  background: #fc7a70;
+}
+.resume .resume_left .resume_profile {
+  width: 100%;
+  height: 280px;
+}
+.resume .resume_left .resume_profile img {
+  width: 220px;
+  height: 220px;
+  margin: 30px;
+}
+.resume .resume_left .resume_content {
+  padding: 0 25px;
+}
+.resume .resume_left .bold {
+  color: #fff;
+}
+.resume .resume_left .regular {
+  color: #fff;
+}
+.resume .resume_item {
+  border-bottom: 2px solid #fc7a70;
+}
+.resume .resume_left .resume_item:last-child,
+.resume .resume_right .resume_item:last-child {
+  border-bottom: 0px;
+}
+.resume .resume_left ul li {
+  margin-bottom: 10px;
+  align-items: center;
+}
+.resume .resume_left ul li .data {
+  color: #fff;
+}
+.resume .resume_left .resume_social .semi-bold {
+  color: #fff;
+  margin-bottom: 3px;
+}
+.resume .resume_right {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+.resume .resume_right .bold {
+  color: #fc7a70;
+}
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul {
+  overflow: hidden;
+}
+.resume .resume_right ul li {
+  position: relative;
+}
+.resume .resume_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.resume .resume_right ul li .info {
+  margin-bottom: 20px;
+}
+.resume .resume_right .resume_education ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #fc7a70;
+}
+.resume .resume_right .resume_work ul li:before {
+  content: "\2022";
+  color: #fc7a70;
+  position: absolute;
+  font-weight: bold;
+  margin-left: -1em;
+  left: -20px;
+}
+span {
+  content: "\00F1";
+}
+h3 {
+  padding-top: 10px;
+}
+
+.contact {
+  color: black;
+  text-align: center;
+  text-indent: auto;
+  font-family: Garamond;
+  font-size: 123%;
+  padding: 15px;
+}
+
+footer {
+  text-align: center;
+  position: bottom;
+  background-color: #ada397;
+  color: black;
+}
+.cover {
+  color: white;
+  left: 0;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #b3a492;
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.3),
+    10px 10px 10px rgba(0, 0, 0, 0.3);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 25px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}

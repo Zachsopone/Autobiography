@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="resumestyle.css" />
+    <title>Biography</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <ul>
+          <div class="cover">
+            <div onclick="playPause()">
+              <i class="fas fa-play" id="playIcon"></i>
+            </div>
+          </div>
+          <audio id="song">
+            <source
+              src="Future Bass _Fade Out_ Chill Type Free Music - Vlog No Copyright Music.mp3"
+              type="audio/mpeg"
+            />
+          </audio>
+          <li class="lis"><a href="index.html">HOME</a></li>
+          <li class="lis"><a href="#">RESUME</a></li>
+          <li class="lis"><a href="gallery.html">GALLERY</a></li>
+          <li class="lis"><a id="contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  <h1>RESUME</h1>  
+  <div class="layer">
+  <div class="resume">
+   <div class="resume_left">
+     <div class="resume_profile">
+       <img src="cn.png" alt="exequiel apdujan">
+     </div>
+     <div class="resume_content">
+       <div class="resume_item">
+           <p class="bold">Exequiel apdujan</p>
+           <p class="regular">Junior Developer</p>
+       </div>
+       <div class="resume_item">
+           <p class="bold">contacts</p>
+         <ul class="group">
+           <li> 
+            <div class="data">
+             <div class="semi-bold" id="Address">Address</div>
+               St. Anthony Vill. Salitran 3
+            </div>
+           </li>
+           <li>
+             <div class="semi-bold" id="Phone">Phone</div>
+             <div class="data">
+               09471797343
+             </div>
+           </li>
+           <li>
+             <div class="data">
+              <div class="semi-bold" id="Email">Email</div>
+               apdujanexequiel @gmail.com
+             </div>
+           </li>
+         </ul>
+       </div> 
+       <div class="resume_item">
+           <p class="bold">skills</p>
+         <ul class="group">
+           <li>
+             <div class="data">
+               Testing and debugging
+             </div>
+           </li>
+           <li>
+             <div class="data">
+               Requirements gathering
+             </div>
+           </li>
+           <li>
+             <div class="data">
+               Usability understanding
+             </div>
+           </li>
+         </ul>
+       </div>
+       <div class="resume_item">
+           <p class="bold">social</p>
+         <ul class="group">
+           <li>
+             <div class="data">
+             <div class="semi-bold" id="Facebook">Facebook</div>
+               <p class="group">Michaelzapdujan @Facebook</p>
+             </div>
+           </li>
+           <li>
+             <div class="data">
+               <p class="semi-bold group" id="Youtube">Youtube</p>
+               <p class="group">Exequiel Apdujan@Youtube</p>
+             </div>
+           </li>
+         </ul>
+       </div>
+     </div>
+  </div>
+  <div class="resume_right">
+    <div class="resume_item resume_about">
+           <p class="bold">Objective</p>
+        <p class="group">To obtain a Computer System Analyst position. where exceptional knowledge and skills will be effectively
+        put in designing information systems solutions to enable the company operate effectively and efficiently by understanding its business needs.</p>
+    </div>
+    <div class="resume_item resume_work">
+           <p class="bold">education</p>
+        <ul class="group">
+            <li>
+                <div class="date">August 2020 - Present</div> 
+                     <p class="semi-bold semi">Cavite State University College Dasmari<span>&#241</span>as City, Cavite</p> 
+                  <p class="group">Bachelor of Science in Computer Science</p>
+            </li>
+            <li>
+              <div class="date">June 3 - 30, 2015</div>
+                     <p class="semi-bold semi">Finishing Course for Call Center Agents NC II</p> 
+                  <p class="group">Summerwind Skills Training Center, Inc.</p>
+            </li>
+            <li>
+              <div class="date">2012 - 2015</div>
+                     <p class="semi-bold semi">Dasmari<span>&#241</span>as North National Highschool</p> 
+                  <p class="group">San Isidro Labrador III Dasmari<span>&#241</span>as City. Cavite</p>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_education">
+           <p class="bold">personal profile</p>
+        <ul class="group">
+            <li> 
+                <div class="info">
+                     <span class="semi-bold">Place of Birth:</span>&nbsp;Pasay City 
+                </div>
+             </li>
+             <li>
+                <div class="info">
+                     <span class="semi-bold">Date of Birth:</span>&nbsp;December 21,1998 
+                </div>
+             </li>
+             <li>    
+                <div class="info">
+                     <span class="semi-bold">Age:</span>&nbsp;22
+                </div>
+             </li>
+             <li>  
+                <div class="info">
+                     <span class="semi-bold">Gender:</span>&nbsp;Male
+                </div>
+             </li>
+             <li>  
+                <div class="info">
+                     <span class="semi-bold">Status:</span>&nbsp;Single
+                </div>
+             </li>
+             <li>  
+                <div class="info">
+                     <span class="semi-bold">Nationality:</span>&nbsp;Filipino
+                </div>
+             </li>
+             <li>  
+                <div class="info">
+                     <span class="semi-bold">Religion:</span>&nbsp;Roman Catholic
+                </div>                          
+            </li>
+        </ul>
+    </div>
+  </div>
+  </div>
+  </div>
+    <footer>
+      <h3>AUTHORS:</h3>
+      <p class="contact">
+        Exequiel Apdujan<br /><a
+          class="link"
+          href="https://mail.google.com/mail/"
+          >apdujanexequiel@gmail.com</a
+        >
+      </p>
+    </footer>
+    <script src="https://kit.fontawesome.com/662a41ec0f.js" crossorigin="anonymous"></script>
+
+    <script>
+      let song = document.getElementById("song");
+      let playIcon = document.getElementById("playIcon");
+
+      function playPause() {
+        if (playIcon.classList.contains("fa-pause")) {
+          song.pause();
+          playIcon.classList.remove("fa-pause");
+          playIcon.classList.add("fa-play");
+        } else {
+          song.play();
+          playIcon.classList.add("fa-pause");
+          playIcon.classList.remove("fa-play");
+        }
+      }
+    </script>
+  </body>
+  <script>
+    document.querySelector("#contact").addEventListener("click", () => {
+      window.scrollTo(0, document.body.scrollHeight);
+    });
+  </script>
+</html>
